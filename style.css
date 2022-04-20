@@ -51,6 +51,7 @@ body {
 }
 
 .big-container {
+	display: none;
 	width: 30%;
 	height: 400px;
 	background-color: white;
@@ -79,4 +80,24 @@ body {
 #weather-state {
 	font-size: 30px;
 	text-align: center;
+}
+
+#pic {
+	background-color: white;
+	text-align: center;
+}
+
+#notfound {
+	display: none;
+	color: white;
+	text-align: center;
+	margin-top: 10%;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+@media screen and (min-width: 1500px) {
+	#big-container {
+		height: 500px;
+	}
 }
