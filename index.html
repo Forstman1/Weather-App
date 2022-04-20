@@ -6,13 +6,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- displays site properly based on user's device -->
 
-	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+<div class="title">Write The City Name</div>
 
-	
+<form class="form" id="form">
+	<input id="data" type="text" name="cityname">
+	<button type="submit" id="submit">submit</button>
+</form>
+<div class="big-container">
+	<div id="city-name" class="city-name">PARIS ( FRANCE )</div>
+	<div id="degree" class="degree">9 <div id="font">°C</div></div>
+	<div id="gif"></div>
+	<div id="weather-state">partly clouded</div>
+</div>
+
+<script src="app.js"></script>
 </body>
 
 </html>
