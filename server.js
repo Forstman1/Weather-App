@@ -20,6 +20,7 @@ async function GetData(cityname) {
 app.get('/api/:name', async(req, res) => {
     let cityname = req.params.name;
     cityname.toString()
+    console.log(cityname)
     GetData(cityname)
     res.json(Object)
     res.end();
